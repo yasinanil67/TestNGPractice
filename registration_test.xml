@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/TechProEd/IdeaProjects/TestNGPracticeNT/src/test/java/tests/medunna_registration_test">
+        <classes>
+            <class name="tests.medunna_registration_test.US001">
+                <methods>
+                    <include name="registrationTest"/>
+                </methods>
+            </class>
+            <class name="tests.medunna_registration_test.US002">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
